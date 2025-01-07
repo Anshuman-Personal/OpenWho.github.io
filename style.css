@@ -121,3 +121,51 @@ footer{
 section{
     color: white;
 }
+body {
+    font-size: 16px;
+    margin: 0;
+}
+
+.modal-content {
+    width: 50%;
+}
+
+/* Styles for screens smaller than 768px (tablets and phones) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    .modal-content {
+        width: 90%; /* Make modals almost full width */
+    }
+
+    .envelope {
+        margin: 10px auto; /* Center envelopes */
+    }
+}
+
+/* Styles for very small screens (phones smaller than 480px) */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 18px; /* Scale down headings */
+    }
+
+    .modal-content {
+        padding: 10px; /* Add padding for better usability */
+    }
+}
+img {
+    max-width: 100%; /* Ensures images never overflow their containers */
+    height: auto; /* Maintains aspect ratio */
+}
+h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
