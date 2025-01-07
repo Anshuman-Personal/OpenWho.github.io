@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open When.....</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Box of Love</h1>
+        <p>Each 'Open When' letter holds a piece of my heart.</p>
+    </header>
+
+    <main>
+        <section class="letters-grid">
+            <!-- First Letter -->
+            <div class="letter">
+                <div class="envelope-container">
+                    <div class="envelope" onclick="openModal('missMeModal')">
+                        <img src="l1.jpeg" alt="Open When You Miss Me">
+                        <p>Open When You Miss Me</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Letter -->
+            <div class="letter">
+                <div class="envelope-container">
+                    <div class="envelope" onclick="openModal('happyModal')">
+                        <img src="l1.jpeg" alt="Open When You're Happy">
+                        <p>Open When You're Happy</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more letters here as needed -->
+            <!-- Third Letter -->
+            <div class="letter">
+                <div class="envelope-container">
+                    <div class="envelope" onclick="openModal('angryModal')">
+                        <img src="l1.jpeg" alt="Open When You're Angry">
+                        <p>Open When You're Angry</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Third Letter -->
+            <div class="letter">
+                <div class="envelope-container">
+                    <div class="envelope" onclick="openModal('irritatedModal')">
+                        <img src="l1.jpeg" alt="Open When You're Irritated">
+                        <p>Open When You're Irritated</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Fourth Letter -->
+            <div class="letter">
+                <div class="envelope-container">
+                    <div class="envelope" onclick="openModal('SadModal')">
+                        <img src="l1.jpeg" alt="Open When You're Sad">
+                        <p>Open When You're Sad</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- The Modal for 'Miss Me' Letter -->
+    <div id="missMeModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('missMeModal')">&times;</span>
+            <h2>Open When You Miss Me</h2>
+            <p>Shona Mera Baby miss kar rahin mujhe. Baby me here na aapke paas "Baby I will always love you no matter what dw"</p>
+            <p>Shona baby mera phone uthaiye and just text me,call me I love u always</p>
+            <p>See the photo below and see how much happy we are mera chotu baby i miss you and i love u always</p>
+            <img src="m1.jpg" alt="Our Photo">
+        </div>
+    </div>
+
+    <!-- The Modal for 'Happy' Letter -->
+    <div id="happyModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('happyModal')">&times;</span>
+            <h2>Open When You're Happy</h2>
+            <p>Mera baby u look the most cutie pie, chocochip when smile bilkul chota baby jaisa</p>
+            <p>U look the prettiest with that smile, the stars shine a little brighter when u smile mera baby</p>
+            <p>Shona always keep smiling like that, that's the thing that keep me going on chotu baby mera</p>
+            <img src="h1.jpg" alt="Happy Moment">
+        </div>
+    </div>
+    <!-- The Modal for 'Angry' Letter -->
+    <div id="angryModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('angryModal')">&times;</span>
+            <h2>Open When You're Angry</h2>
+            <p>Mera butterscotch ice cream, mera laal tamatar aise kaise gussa hain baby mera</p>
+            <p>Shona kya maine gussa dilaya agar haan to abhi maafi maangne laga hoonga aapse i know myself</p>
+            <p>Baby kuch nhi hua gussa na hooyein mera baby choti si baby hain aap meri aapka muh bilkul neeche wali cat ki tarah hogaya hoga</p>
+            <p>I know aap bahoot cute lagti hain bilkul chotu baby gussa karta hain na waise hi bilkul cutu to ek smile kar dijiye na<p>
+            <p>And I promise I will fall in love with u all over again!!!</p>
+            <img src="a1.png" alt="Angry Moment">
+        </div>
+    </div>
+    <!-- The Modal for 'Irritated' Letter -->
+    <div id="irritatedModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('irritatedModal')">&times;</span>
+            <h2>Open When You're Irritated</h2>
+            <p>Mera chotu baby irritated hain kisne kara irritate aapko (PS: I know most probably main hi hoonga) baby relax</p>
+            <p>Breathe kuch nhi hua shona and aansoon nhi aane chahiye because shona "I hate tears"</p>
+            <p>Kuch nhi hua baby bilkul chinta na karein kuch nhi hua shona mere paas aayein meri cookie</p>
+            <img src="i1.jpg" alt="Angry Moment">
+        </div>
+    </div>
+    <!-- The Modal for 'Sad' Letter -->
+    <div id="SadModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('sadModal')">&times;</span>
+            <h2>Open When You're Sad</h2>
+            <p>BABY!!! kya hui??</p>
+            <p>chota baby mera sad hai aansoon agaye aise kaise u to mera very strong baby i know baby and don't even dare to say ki nhi hain</p>
+            <p>U are very strong baby mujhe bataiye ki kya hua u know na apka personal google hoon main kuch na kuch solution nikaloonga apke liye I promise</p>
+            <p>Mera chotu baby chaliye aansoon poochiye aur mujhse baat kariye tell me poori koshish karke just throw words at me dw</p>
+            <img src="s1.png" alt="Angry Moment">
+        </div>
+    </div>
+    <footer>
+        <p>Made with ❤️ by Anshuman Nigam</p>
+    </footer>
+    <section class="medium-stories">
+        <h2>Our Stories</h2>
+        <ul>
+            <li>
+                <a href="https://medium.com/@anshumanbbc360/terminal-3-8f49fd598b82" target="_blank">
+                    Terminal 3
+                </a>
+            </li>
+            <li>
+                <a href="https://medium.com/@anshumanbbc360/flight-gsrk8c-28f33a56635c" target="_blank">
+                    Flight GSRK8C
+                </a>
+            </li>
+            <li>
+                <a href="https://medium.com/@anshumanbbc360/terminal-3-8f49fd598b82" target="_blank">
+                    Terminal 3
+                </a>
+            </li>
+            <li>
+                <a href=https://medium.com/@anshumanbbc360/your-personal-box-of-love-c3a3b9ad8c36" target="_blank">
+                    Flight GSRK8C
+                </a>
+            </li>
+        </ul>
+    </section>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
